@@ -5,7 +5,6 @@ Simple tproger.ru articles web-scraper (request + bs + csv)
 1. settings.py - first you should fill it with desired data to scrape, BASE_URL & PAGES_NAME, insert desired pages names of the tproger to scrape
 ```BASE_URL = "https://tproger.ru/{tag}/page/{page_number}/" # Put any page you want to scrape
 
-
 PAGES_NAMES = [
     "python", 
 ]```
