@@ -9,7 +9,8 @@ BASE_URL = "https://tproger.ru/{tag}/page/{page_number}/" # Put any page you wan
 
 PAGES_NAMES = [
     "python", 
-] ```
+] 
+```
 
 2. main.py - adjust main() as you want, how many pages you would like to scrape & so on. parse_request(name, 1, []) as it goes
 3. python.csv - example of the web-scraper results you should get.
